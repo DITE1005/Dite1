@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50656CF434997655626C5728 /* Pods_POPDecayAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEF0B4ED00ADEAA6A34F4AC /* Pods_POPDecayAnimation.framework */; };
+		79AB38391D34D4F9006750ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB38381D34D4F9006750ED /* main.m */; };
+		79AB383C1D34D4F9006750ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB383B1D34D4F9006750ED /* AppDelegate.m */; };
+		79AB383F1D34D4F9006750ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB383E1D34D4F9006750ED /* ViewController.m */; };
+		79AB38421D34D4F9006750ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AB38401D34D4F9006750ED /* Main.storyboard */; };
+		79AB38441D34D4F9006750ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AB38431D34D4F9006750ED /* Assets.xcassets */; };
+		79AB38471D34D4F9006750ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AB38451D34D4F9006750ED /* LaunchScreen.storyboard */; };
+		79AB38521D34D4F9006750ED /* POPDecayAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB38511D34D4F9006750ED /* POPDecayAnimationTests.m */; };
+		79AB385D1D34D4F9006750ED /* POPDecayAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB385C1D34D4F9006750ED /* POPDecayAnimationUITests.m */; };
+		79BE54811D35DF1E000F22B8 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE54801D35DF1E000F22B8 /* NSDate+Extension.m */; };
+		79BE54841D35DF66000F22B8 /* NSString+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE54831D35DF66000F22B8 /* NSString+BXExtension.m */; };
+		79BE54871D35E287000F22B8 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE54861D35E287000F22B8 /* PublishView.m */; };
+		79BE54891D35E2A8000F22B8 /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BE54881D35E2A8000F22B8 /* PublishView.xib */; };
+		79EF90011D350834007D3416 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF8FFF1D350834007D3416 /* PublishViewController.m */; };
+		79EF90021D350834007D3416 /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF90001D350834007D3416 /* PublishViewController.xib */; };
+		79EF90081D350F05007D3416 /* PublishVertiButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF90071D350F05007D3416 /* PublishVertiButton.m */; };
+		79EF900F1D352C7A007D3416 /* PublishPostWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF900E1D352C7A007D3416 /* PublishPostWordViewController.m */; };
+		79EF90121D352D17007D3416 /* PublishTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF90111D352D17007D3416 /* PublishTextView.m */; };
+		79EF90181D353320007D3416 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF90171D353320007D3416 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AB384E1D34D4F9006750ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AB382C1D34D4F8006750ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AB38331D34D4F8006750ED;
+			remoteInfo = POPDecayAnimation;
+		};
+		79AB38591D34D4F9006750ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AB382C1D34D4F8006750ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AB38331D34D4F8006750ED;
+			remoteInfo = POPDecayAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E979F4974A9BAD2B3D5C817 /* Pods-POPDecayAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPDecayAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPDecayAnimation/Pods-POPDecayAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		3FCD107D7F13BFDA692DF178 /* Pods-POPDecayAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPDecayAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPDecayAnimation/Pods-POPDecayAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		6DEF0B4ED00ADEAA6A34F4AC /* Pods_POPDecayAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPDecayAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79395FA21D35CEDF0073D100 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		79AB38341D34D4F8006750ED /* POPDecayAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPDecayAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AB38381D34D4F9006750ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79AB383A1D34D4F9006750ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79AB383B1D34D4F9006750ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79AB383D1D34D4F9006750ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79AB383E1D34D4F9006750ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79AB38411D34D4F9006750ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79AB38431D34D4F9006750ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79AB38461D34D4F9006750ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79AB38481D34D4F9006750ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AB384D1D34D4F9006750ED /* POPDecayAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPDecayAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AB38511D34D4F9006750ED /* POPDecayAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPDecayAnimationTests.m; sourceTree = "<group>"; };
+		79AB38531D34D4F9006750ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AB38581D34D4F9006750ED /* POPDecayAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPDecayAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AB385C1D34D4F9006750ED /* POPDecayAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPDecayAnimationUITests.m; sourceTree = "<group>"; };
+		79AB385E1D34D4F9006750ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE547F1D35DF11000F22B8 /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		79BE54801D35DF1E000F22B8 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		79BE54821D35DF5F000F22B8 /* NSString+BXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BXExtension.h"; sourceTree = "<group>"; };
+		79BE54831D35DF66000F22B8 /* NSString+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BXExtension.m"; sourceTree = "<group>"; };
+		79BE54851D35E287000F22B8 /* PublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishView.h; sourceTree = "<group>"; };
+		79BE54861D35E287000F22B8 /* PublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishView.m; sourceTree = "<group>"; };
+		79BE54881D35E2A8000F22B8 /* PublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
+		79EF8FFE1D350834007D3416 /* PublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishViewController.h; sourceTree = "<group>"; };
+		79EF8FFF1D350834007D3416 /* PublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
+		79EF90001D350834007D3416 /* PublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishViewController.xib; sourceTree = "<group>"; };
+		79EF90061D350F05007D3416 /* PublishVertiButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishVertiButton.h; sourceTree = "<group>"; };
+		79EF90071D350F05007D3416 /* PublishVertiButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishVertiButton.m; sourceTree = "<group>"; };
+		79EF900D1D352C7A007D3416 /* PublishPostWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishPostWordViewController.h; sourceTree = "<group>"; };
+		79EF900E1D352C7A007D3416 /* PublishPostWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishPostWordViewController.m; sourceTree = "<group>"; };
+		79EF90101D352D17007D3416 /* PublishTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishTextView.h; sourceTree = "<group>"; };
+		79EF90111D352D17007D3416 /* PublishTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishTextView.m; sourceTree = "<group>"; };
+		79EF90161D35331C007D3416 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		79EF90171D353320007D3416 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79AB38311D34D4F8006750ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50656CF434997655626C5728 /* Pods_POPDecayAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB384A1D34D4F9006750ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB38551D34D4F9006750ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1788EBDEF46260348FF20075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E979F4974A9BAD2B3D5C817 /* Pods-POPDecayAnimation.debug.xcconfig */,
+				3FCD107D7F13BFDA692DF178 /* Pods-POPDecayAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79AB382B1D34D4F8006750ED = {
+			isa = PBXGroup;
+			children = (
+				79AB38361D34D4F8006750ED /* POPDecayAnimation */,
+				79AB38501D34D4F9006750ED /* POPDecayAnimationTests */,
+				79AB385B1D34D4F9006750ED /* POPDecayAnimationUITests */,
+				79AB38351D34D4F8006750ED /* Products */,
+				1788EBDEF46260348FF20075 /* Pods */,
+				FC5519DA82CDCE67A6A479AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79AB38351D34D4F8006750ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AB38341D34D4F8006750ED /* POPDecayAnimation.app */,
+				79AB384D1D34D4F9006750ED /* POPDecayAnimationTests.xctest */,
+				79AB38581D34D4F9006750ED /* POPDecayAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AB38361D34D4F8006750ED /* POPDecayAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				79AB383A1D34D4F9006750ED /* AppDelegate.h */,
+				79AB383B1D34D4F9006750ED /* AppDelegate.m */,
+				79AB383D1D34D4F9006750ED /* ViewController.h */,
+				79AB383E1D34D4F9006750ED /* ViewController.m */,
+				79BE54781D35DBD9000F22B8 /* 日期 */,
+				79EF90091D351080007D3416 /* 坐标类 */,
+				79EF90031D350859007D3416 /* PublishViewController */,
+				79EF90051D3508BB007D3416 /* PublishModel */,
+				79EF90041D35087D007D3416 /* PublishView */,
+				79AB38401D34D4F9006750ED /* Main.storyboard */,
+				79AB38431D34D4F9006750ED /* Assets.xcassets */,
+				79AB38451D34D4F9006750ED /* LaunchScreen.storyboard */,
+				79AB38481D34D4F9006750ED /* Info.plist */,
+				79AB38371D34D4F9006750ED /* Supporting Files */,
+				79395FA21D35CEDF0073D100 /* PrefixHeader.pch */,
+			);
+			path = POPDecayAnimation;
+			sourceTree = "<group>";
+		};
+		79AB38371D34D4F9006750ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79AB38381D34D4F9006750ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79AB38501D34D4F9006750ED /* POPDecayAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				79AB38511D34D4F9006750ED /* POPDecayAnimationTests.m */,
+				79AB38531D34D4F9006750ED /* Info.plist */,
+			);
+			path = POPDecayAnimationTests;
+			sourceTree = "<group>";
+		};
+		79AB385B1D34D4F9006750ED /* POPDecayAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79AB385C1D34D4F9006750ED /* POPDecayAnimationUITests.m */,
+				79AB385E1D34D4F9006750ED /* Info.plist */,
+			);
+			path = POPDecayAnimationUITests;
+			sourceTree = "<group>";
+		};
+		79BE54781D35DBD9000F22B8 /* 日期 */ = {
+			isa = PBXGroup;
+			children = (
+				79BE547F1D35DF11000F22B8 /* NSDate+Extension.h */,
+				79BE54801D35DF1E000F22B8 /* NSDate+Extension.m */,
+				79BE54821D35DF5F000F22B8 /* NSString+BXExtension.h */,
+				79BE54831D35DF66000F22B8 /* NSString+BXExtension.m */,
+			);
+			name = "日期";
+			sourceTree = "<group>";
+		};
+		79EF90031D350859007D3416 /* PublishViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79EF8FFE1D350834007D3416 /* PublishViewController.h */,
+				79EF8FFF1D350834007D3416 /* PublishViewController.m */,
+				79EF90001D350834007D3416 /* PublishViewController.xib */,
+				79EF900D1D352C7A007D3416 /* PublishPostWordViewController.h */,
+				79EF900E1D352C7A007D3416 /* PublishPostWordViewController.m */,
+			);
+			name = PublishViewController;
+			sourceTree = "<group>";
+		};
+		79EF90041D35087D007D3416 /* PublishView */ = {
+			isa = PBXGroup;
+			children = (
+				79EF90061D350F05007D3416 /* PublishVertiButton.h */,
+				79EF90071D350F05007D3416 /* PublishVertiButton.m */,
+				79EF90101D352D17007D3416 /* PublishTextView.h */,
+				79EF90111D352D17007D3416 /* PublishTextView.m */,
+				79BE54851D35E287000F22B8 /* PublishView.h */,
+				79BE54861D35E287000F22B8 /* PublishView.m */,
+				79BE54881D35E2A8000F22B8 /* PublishView.xib */,
+			);
+			name = PublishView;
+			sourceTree = "<group>";
+		};
+		79EF90051D3508BB007D3416 /* PublishModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PublishModel;
+			sourceTree = "<group>";
+		};
+		79EF90091D351080007D3416 /* 坐标类 */ = {
+			isa = PBXGroup;
+			children = (
+				79EF90161D35331C007D3416 /* UIView+Extension.h */,
+				79EF90171D353320007D3416 /* UIView+Extension.m */,
+			);
+			name = "坐标类";
+			sourceTree = "<group>";
+		};
+		FC5519DA82CDCE67A6A479AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF0B4ED00ADEAA6A34F4AC /* Pods_POPDecayAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79AB38331D34D4F8006750ED /* POPDecayAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AB38611D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimation" */;
+			buildPhases = (
+				DBB63F7ED1C1E92DCC1EB237 /* [CP] Check Pods Manifest.lock */,
+				79AB38301D34D4F8006750ED /* Sources */,
+				79AB38311D34D4F8006750ED /* Frameworks */,
+				79AB38321D34D4F8006750ED /* Resources */,
+				E268158E03D3EC78F489A6D0 /* [CP] Embed Pods Frameworks */,
+				A9BE8E242C85D70444B306B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPDecayAnimation;
+			productName = POPDecayAnimation;
+			productReference = 79AB38341D34D4F8006750ED /* POPDecayAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79AB384C1D34D4F9006750ED /* POPDecayAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AB38641D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimationTests" */;
+			buildPhases = (
+				79AB38491D34D4F9006750ED /* Sources */,
+				79AB384A1D34D4F9006750ED /* Frameworks */,
+				79AB384B1D34D4F9006750ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AB384F1D34D4F9006750ED /* PBXTargetDependency */,
+			);
+			name = POPDecayAnimationTests;
+			productName = POPDecayAnimationTests;
+			productReference = 79AB384D1D34D4F9006750ED /* POPDecayAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79AB38571D34D4F9006750ED /* POPDecayAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AB38671D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimationUITests" */;
+			buildPhases = (
+				79AB38541D34D4F9006750ED /* Sources */,
+				79AB38551D34D4F9006750ED /* Frameworks */,
+				79AB38561D34D4F9006750ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AB385A1D34D4F9006750ED /* PBXTargetDependency */,
+			);
+			name = POPDecayAnimationUITests;
+			productName = POPDecayAnimationUITests;
+			productReference = 79AB38581D34D4F9006750ED /* POPDecayAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AB382C1D34D4F8006750ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lanou;
+				TargetAttributes = {
+					79AB38331D34D4F8006750ED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					79AB384C1D34D4F9006750ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79AB38331D34D4F8006750ED;
+					};
+					79AB38571D34D4F9006750ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79AB38331D34D4F8006750ED;
+					};
+				};
+			};
+			buildConfigurationList = 79AB382F1D34D4F8006750ED /* Build configuration list for PBXProject "POPDecayAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AB382B1D34D4F8006750ED;
+			productRefGroup = 79AB38351D34D4F8006750ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AB38331D34D4F8006750ED /* POPDecayAnimation */,
+				79AB384C1D34D4F9006750ED /* POPDecayAnimationTests */,
+				79AB38571D34D4F9006750ED /* POPDecayAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79AB38321D34D4F8006750ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF90021D350834007D3416 /* PublishViewController.xib in Resources */,
+				79AB38471D34D4F9006750ED /* LaunchScreen.storyboard in Resources */,
+				79BE54891D35E2A8000F22B8 /* PublishView.xib in Resources */,
+				79AB38441D34D4F9006750ED /* Assets.xcassets in Resources */,
+				79AB38421D34D4F9006750ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB384B1D34D4F9006750ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB38561D34D4F9006750ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9BE8E242C85D70444B306B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPDecayAnimation/Pods-POPDecayAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB63F7ED1C1E92DCC1EB237 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E268158E03D3EC78F489A6D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPDecayAnimation/Pods-POPDecayAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AB38301D34D4F8006750ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF900F1D352C7A007D3416 /* PublishPostWordViewController.m in Sources */,
+				79EF90081D350F05007D3416 /* PublishVertiButton.m in Sources */,
+				79EF90121D352D17007D3416 /* PublishTextView.m in Sources */,
+				79EF90011D350834007D3416 /* PublishViewController.m in Sources */,
+				79AB383F1D34D4F9006750ED /* ViewController.m in Sources */,
+				79BE54871D35E287000F22B8 /* PublishView.m in Sources */,
+				79AB383C1D34D4F9006750ED /* AppDelegate.m in Sources */,
+				79EF90181D353320007D3416 /* UIView+Extension.m in Sources */,
+				79BE54841D35DF66000F22B8 /* NSString+BXExtension.m in Sources */,
+				79AB38391D34D4F9006750ED /* main.m in Sources */,
+				79BE54811D35DF1E000F22B8 /* NSDate+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB38491D34D4F9006750ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AB38521D34D4F9006750ED /* POPDecayAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB38541D34D4F9006750ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AB385D1D34D4F9006750ED /* POPDecayAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79AB384F1D34D4F9006750ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AB38331D34D4F8006750ED /* POPDecayAnimation */;
+			targetProxy = 79AB384E1D34D4F9006750ED /* PBXContainerItemProxy */;
+		};
+		79AB385A1D34D4F9006750ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AB38331D34D4F8006750ED /* POPDecayAnimation */;
+			targetProxy = 79AB38591D34D4F9006750ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79AB38401D34D4F9006750ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AB38411D34D4F9006750ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79AB38451D34D4F9006750ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AB38461D34D4F9006750ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79AB385F1D34D4F9006750ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79AB38601D34D4F9006750ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79AB38621D34D4F9006750ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E979F4974A9BAD2B3D5C817 /* Pods-POPDecayAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = POPDecayAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = POPDecayAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79AB38631D34D4F9006750ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCD107D7F13BFDA692DF178 /* Pods-POPDecayAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = POPDecayAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = POPDecayAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79AB38651D34D4F9006750ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POPDecayAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPDecayAnimation.app/POPDecayAnimation";
+			};
+			name = Debug;
+		};
+		79AB38661D34D4F9006750ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POPDecayAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPDecayAnimation.app/POPDecayAnimation";
+			};
+			name = Release;
+		};
+		79AB38681D34D4F9006750ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = POPDecayAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POPDecayAnimation;
+			};
+			name = Debug;
+		};
+		79AB38691D34D4F9006750ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = POPDecayAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.POPDecayAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POPDecayAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79AB382F1D34D4F8006750ED /* Build configuration list for PBXProject "POPDecayAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AB385F1D34D4F9006750ED /* Debug */,
+				79AB38601D34D4F9006750ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AB38611D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AB38621D34D4F9006750ED /* Debug */,
+				79AB38631D34D4F9006750ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AB38641D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AB38651D34D4F9006750ED /* Debug */,
+				79AB38661D34D4F9006750ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AB38671D34D4F9006750ED /* Build configuration list for PBXNativeTarget "POPDecayAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AB38681D34D4F9006750ED /* Debug */,
+				79AB38691D34D4F9006750ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79AB382C1D34D4F8006750ED /* Project object */;
+}
